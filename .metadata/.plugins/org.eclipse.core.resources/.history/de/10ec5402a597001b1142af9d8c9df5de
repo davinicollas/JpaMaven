@@ -12,6 +12,7 @@ public class Programa {
 		
 		EntityManagerFactory enf = Persistence.createEntityManagerFactory("exemplo-jpa");
 		EntityManager em = enf.createEntityManager();
+		
 		Pessoa p = em.find(Pessoa.class, 2);
 		System.out.println(p);
 		System.out.println("Pronto!");
