@@ -21,7 +21,7 @@ public class Programa {
 		em.persist(p2);
 		em.persist(p3);
 		em.getTransaction().commit();
-		System.out.println("Pronto!");
+		System.out.println("pront");
 
 	}
 

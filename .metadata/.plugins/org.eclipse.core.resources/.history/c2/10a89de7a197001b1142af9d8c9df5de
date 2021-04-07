@@ -14,7 +14,8 @@ public class Pessoa implements Serializable{
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
-	private String nome ;
+	@Column(nome="Nome completo")
+	private String ;
 	private String email;
 	public Pessoa () {	
 	}
